@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.text-white { color: #c0c0c0; }
+.bg-white { background-color: #fff; }
+
+.bg-black {background-color: #000; }
+.text-black {color:#000;}
+
+.bg-green { background-color: #4242421f; }
+.text-green {color: #424242; }
+
+.candidate_photo {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #424242;
+    border-radius: 100%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.h-100{
+  width: 100%;
+  background-image:url(../images/back.png); 
+}  
+marquee{
+  font-family: 'Lato',sans-serif;
+  background: rgba(22, 206, 212, 0.089);
+  font-size: 1.4rem !important;
+}
+.wlcm{
+  text-align: center;
+  margin-top: 7rem;
+}
+#flexyy {
+  text-align: center;
+  display: flex;
+  margin-left: 10px;
+  align-items: center !important;
+  font-weight: 700;
+}
+.userid{
+  background: rgba(0, 0, 0, 0.473);
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.spc{
+  margin-top: 0.4rem;
+  font-size: 24px;
+}
+body{
+  font-family: 'Lato', sans-serif;
+  background: url(../images/s.png) ;
+  background-size: cover;
+  letter-spacing: 1px;
+  color:rgb(255, 255, 255);
+  
+}
+#vote-style{
+  background-color: rgb(199, 23, 58);
+  border-radius: 5px;
+  padding: 2px 10px;
+}
+#flexy{
+  display: flex;
+  width: 100%;
+  padding-top: 0rem;
+  margin-left: 3.5rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color:transparent;
+}
+#logo{
+  margin: 4px 0px 4px 4px;
+  color: #fff;
+  filter: invert(100%) !important;
+  
+}
+.text-success,
+.text-danger,
+.text-warning{
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+.ani{
+  color: black;
+}
+.col-1{
+  padding-right: 4px;
+  
+}
+.col-11{
+  width: 100%;
+}
+#logout{
+  background: #ffffff;
+  border-radius: 4px;
+  color: rgb(0, 0, 0) !important;
+}
+.table,thead,th {
+  color: rgb(255, 255, 255);
+}
+.my-3{
+  margin-top: 2rem !important;
+}
+.row{
+  margin-top: 1rem !important;
+}
+.bg-green{
+  /* background: #000; */
+  margin: 0 0.2rem;
+}
+::placeholder{
+  color: black;
+  opacity: 1;
+}
+tr{
+    align-items: center;
+  
+}
